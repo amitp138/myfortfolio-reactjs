@@ -1,0 +1,73 @@
+.inp{
+    padding: 20px;
+    margin: 10px;
+   
+border-radius: 10px;
+    width: 400px;
+    height: 5px;
+    font-weight: bolder;
+}
+p{
+    color: aliceblue;
+}
+.contact{
+    display: flex;
+}
+.social>button{
+    background-color: blueviolet;
+    margin: 10px;
+}
+
+.social>button>a{
+    color: aliceblue;
+    text-decoration:underline;
+   
+}
+.social>button:hover{
+    text-transform: uppercase;
+}
+.checkinp{
+    height: 20px;
+    color: aliceblue;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+h1{
+    color: aliceblue;
+}
+.texttog{
+    color: aliceblue;
+    font-size: 20px;
+}
+.checktog,.texttog{
+    display: flex;
+    align-items: center;
+    
+}
+.formsub{
+    
+    width: 200px;
+    height: 40px;
+    background-color: rgb(95, 136, 154);
+    color: rgb(245, 237, 200);
+    
+}
+.footer{
+    padding-left: 140px;
+}
+b{
+    padding-left: 40px;
+    width: 100px;
+}
+
+.social{
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 400px;
+    margin: 30px;
+}

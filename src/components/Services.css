@@ -1,0 +1,41 @@
+.mappro{
+   font: 20px;
+   color: red;
+   display: flex;
+  flex-direction: column;
+  border: 2px solid lightgoldenrodyellow;
+  border-radius: 10px;
+  width: 200px;
+  height: 250px;
+  margin: 10px;
+  padding: 5px;
+  box-shadow: 2px 2px lightgoldenrodyellow;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+.services{
+    color: aliceblue;
+   
+}
+.services>button>a{
+    color: rgb(33, 31, 29);
+}
+.services>button{
+    background-color: cornflowerblue;
+}
+.mappro>img{
+    height: 200px;
+   
+    border: 3px solid red;
+}
+.mappro>button{
+    background-color: aliceblue;
+  
+}
+.mappro>a{
+   
+    color: brown;
+}
+

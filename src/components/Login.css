@@ -1,0 +1,32 @@
+
+
+    .Login{
+        background-color: purple;
+        align-items: center;
+    justify-content: center;
+       width: 500px;
+       margin: 100px 100px 50px 400px;
+       height: 400px;
+        display: flex;
+    flex-direction: column;
+   border-radius: 20px;
+    border: 1px solid black;
+    }
+    .logininp{
+        padding: 20px;
+        margin: 10px;
+       color:darkorange;
+border-radius: 10px;
+        width: 400px;
+        height: 10px;
+    }
+    button{
+        font-size: 23px;
+        justify-content: center;
+        width: 200px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: greenyellow;
+    }
+
+

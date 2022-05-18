@@ -1,0 +1,27 @@
+
+.home{
+    display: flex;
+   
+}
+
+.typing{
+    color: white;
+}
+.passage{
+    font-size: 30px;
+    text-shadow: 2px 2px grey;
+    align-items: center;
+   padding: 100px 30px 100px 130px;
+    width: 400px;
+}
+.nottype{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 300px;
+   align-items: center;
+   margin: 5px;
+  color: white;
+   
+}
+.name{
+    color: yellow;
+}
