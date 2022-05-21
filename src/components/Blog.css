@@ -1,15 +1,10 @@
-button{
-    font-size: 23px;
-    justify-content: center;
-    width: 200px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: rgb(206, 212, 196);
-    color: blue;
-   
-}
+
 .mapblog>button{
-    
+    font-size: 23px;
+        justify-content: center;
+        width: 200px;
+        height: 40px;
+        border-radius: 20px;
     background-color: rgb(230, 172, 86);
 }
 .mapblog>b{ 
@@ -52,5 +47,13 @@ button{
     color: rgb(33, 31, 29);
 }
 .blog>button{
+    
+        font-size: 23px;
+        justify-content: center;
+        width: 200px;
+        height: 40px;
+        border-radius: 20px;
+       
+        color: blue;
     background-color: cornflowerblue;
 }

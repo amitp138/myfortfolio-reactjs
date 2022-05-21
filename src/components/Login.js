@@ -1,24 +1,29 @@
 import React from "react";
 import "./Login.css";
-
+import { BiUserCircle,BiLock,BiLogIn } from "react-icons/bi";
 const Login = (props) => {
   
   
   return (
     <div>
       <div className="container">
+        
         <div className="Login">
           
-            <label htmlFor="email"></label>
+        <h1>User Login</h1>
+        <div className="input">
+        <label htmlFor="username"> <BiUserCircle/></label>
             <input
             className="logininp"
-              type="mail"
-              placeholder="enter your email"
-              name="email"
-              value={props.email}
-              onChange={props.handleEmail}
+              type="text"
+              placeholder="enter your username"
+              name="username"
+              value={props.username}
+              onChange={props.handleUsername}
             />
-            <label htmlFor="password"></label>
+           </div>
+           <div className="input">
+             <label htmlFor="password"><BiLock/></label>
             <input
             className="logininp"
               type="password"
@@ -27,9 +32,13 @@ const Login = (props) => {
               value={props.password}
               onChange={props.handlePassword}
             />
-            <button onClick={props.handleSubmit} type="submit">
+            </div>
+            <div className="submit">
+            <label ><BiLogIn/></label>
+            <button className="submitbtn" onClick={props.handleSubmit} type="submit">
               submit
             </button>
+            </div>
          
         </div>
       </div>

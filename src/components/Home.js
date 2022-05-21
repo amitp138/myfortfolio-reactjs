@@ -2,7 +2,7 @@ import React from 'react'
 import './Home.css';
 import { Typewriter } from 'react-simple-typewriter'
 
-const Home = () => {
+const Home = (props) => {
  
  
  
@@ -10,7 +10,7 @@ const Home = () => {
     <div className='home'>
      <div className='passage'>
        <div className='nottype'>
-       Hi,<br/>
+       Hi {props.username},<br/>
        
         I am<br/>
       <div className='name'> AMIT PANDEY</div>

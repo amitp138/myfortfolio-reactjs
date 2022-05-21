@@ -10,51 +10,44 @@ import Navbar from './components/Navbar';
 
 
 function App() {
-  const [email, setEmail] = useState("");
+  const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [loginPage,setLoginPage]=useState(true);
   
-  const handleEmail = (e) => {
-    setEmail(e.target.value);
+  const handleUsername = (e) => {
+    setUsername(e.target.value);
   };
   const handlePassword = (e) => {
     setPassword(e.target.value);
   };
   const handleSubmit = () => {
-    if (email === "amitpande1008@gmail.com" && password === "amit123@jee") {
-      alert("submit successfull...");
-      setLoginPage(false)
-      
-    } else if (
-      email === "amitpande1008@gmail.com" &&
-      password !== "amit123@jee"
-    ) {
-      alert("password is wrong..");
-    } else if (
-      email !== "amitpande1008@gmail.com" &&
-      password === "amit123@jee"
-    ) {
-      alert("email is wrong..");
-    } else {
-      alert("wrong credetials..");
-    }
+   if(username==='' || password===''){
+    alert('please enter the fields properly ')
+    
+   }
+   else{
+   
+     alert('login successfully..'+username)
+     setLoginPage(false)
+   }
   };
   
   return (
     
-    <div>
-    
+    <div className='app'>
+     { loginPage?<Login password={password} username={username} handleUsername={handleUsername} 
+       handlePassword={handlePassword} handleSubmit={handleSubmit}/>:
       <Router>
         <Routes>
         <Route path="/" element={<Navbar />}>
-        <Route index element={<Home />}/>
+        <Route index element={<Home username={username} />}/>
           <Route path='Aboutme' element={<Aboutme/>}/>
           <Route path='Contact' element={<Contact/>}/>
           <Route path='Blog' element={<Blog/>}/>
           <Route path='Services' element={<Services/>}/>
           </Route>
         </Routes>
-      </Router>
+      </Router>}
      
    
       </div>

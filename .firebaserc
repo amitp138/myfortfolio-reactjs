@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "portfolioweb-amitp",
+    "staging": "portfolioweb-amitp"
+  },
+  "targets": {}
+}

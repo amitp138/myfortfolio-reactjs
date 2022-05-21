@@ -1,9 +1,10 @@
 
 
     .Login{
-        background-color: purple;
+        background-color: rgb(86, 182, 214);
         align-items: center;
     justify-content: center;
+   
        width: 500px;
        margin: 100px 100px 50px 400px;
        height: 400px;
@@ -15,18 +16,40 @@
     .logininp{
         padding: 20px;
         margin: 10px;
-       color:darkorange;
-border-radius: 10px;
-        width: 400px;
+      
+        border-radius: 20px;
+        width: 300px;
         height: 10px;
+        box-shadow: 2px 2px rgb(92, 153, 51);
     }
-    button{
+    .input>label{
+        padding: 12px;
+       
+       font-size: 40px;
+      
+    }
+    .input{
+       display: flex;
+       justify-content: center;
+    }
+   .submitbtn{
+    
         font-size: 23px;
         justify-content: center;
         width: 200px;
         height: 40px;
-        border-radius: 20px;
-        background-color: greenyellow;
+        color: rgb(254 251 251);
+        border-radius: 70px;
+        background-color: rgb(16, 92, 118);
     }
+.submit>label{
+   
+    font-size: 35px;
+}
+.submit{
+    padding: 12px;
+   display: flex;
+   justify-content: center;
+}
 
 
